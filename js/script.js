@@ -21,8 +21,7 @@ function timer() {
     let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-    resultElement.innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    resultElement.innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
 
     if (timeDifference < 0) {
       clearInterval(updateCount);
