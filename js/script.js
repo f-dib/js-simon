@@ -1,6 +1,13 @@
 let nextDate = new Date("Feb 12, 2024 09:30:00").getTime();
+let buttonElement = document.querySelector('#btn');
 
-let updateCount = setInterval(timer, 1000);
+buttonElement.addEventListener("click", 
+    function() {
+        
+        let updateCount = setInterval(timer, 1000);
+        
+    }
+);
 
 function timer() {
 
