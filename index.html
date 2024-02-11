@@ -19,10 +19,29 @@
 <body>
 
     <section class="d-flex flex-column justify-content-center align-items-center vh-100">
-        <div class="text-center fw-bolder my_style d-flex justify-content-center pt-3  mb-4">
-            <div id="result"></div>
+        <div class="text-center fw-bolder my_style d-flex justify-content-center pt-3 mb-4 gap-3">
+            <div id="day" class="box">
+                00
+            </div>
+            <div id="hour" class="box">
+                00
+            </div>
+            <div id="minute" class="box">
+                00
+            </div>
+            <div id="second" class="box">
+                00
+            </div>
         </div>
-        <div><img src="./img/DHARMAlogo.webp" alt=""></div>
+        <div class="position-relative">
+            <img src="./img/DHARMAlogo.webp" alt="dharma logo">
+            <div class="position-absolute start-50 translate-middle-x my_top">
+                4 - 8 - 15 - 16 - 23 - 42
+            </div>
+        </div>
+        <div>
+
+        </div>
         <div class="p-5">
             <button id="btn">Avvia Timer</button>
         </div>
