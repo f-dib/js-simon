@@ -19,31 +19,51 @@
 <body>
 
     <section class="d-flex flex-column justify-content-center align-items-center vh-100">
-        <div class="text-center fw-bolder my_style d-flex justify-content-center pt-3 mb-4 gap-3">
-            <div id="day" class="box">
-                00
+        <div id="watch" class="text-center fw-bolder my_style d-flex justify-content-center pt-3 mb-4 gap-3">
+            <div>
+                <div id="dd" class="mini-box text-start">
+                    DAYS
+                </div>
+                <div id="day" class="box">
+                    00
+                </div>
             </div>
-            <div id="hour" class="box">
-                00
+            <div>
+                <div id="time" class="mini-box text-start">
+                    TIME
+                </div>
+                <div id="hour" class="box">
+                    00
+                </div>
             </div>
-            <div id="minute" class="box">
-                00
+            <div>
+                <div class="mini-box">
+
+                </div>
+                <div id="minute" class="box">
+                    00
+                </div>
             </div>
-            <div id="second" class="box">
-                00
+            <div>
+                <div class="mini-box">
+
+                </div>
+                <div id="second" class="box">
+                    00
+                </div>
             </div>
         </div>
         <div class="position-relative">
             <img src="./img/DHARMAlogo.webp" alt="dharma logo">
-            <div class="position-absolute start-50 translate-middle-x my_top">
-                4 - 8 - 15 - 16 - 23 - 42
+            <div id="result" class="position-absolute start-50 translate-middle-x my_top my_font">
+                4 8 15 16 23 42
             </div>
         </div>
-        <div>
-
+        <div class="text-uppercase my_font fs-2 p-4">
+            press enter to update the countdown
         </div>
-        <div class="p-5">
-            <button id="btn">Avvia Timer</button>
+        <div class="p-">
+            <button id="btn" class="btn text-uppercase my_font fs-1">enter</button>
         </div>
     </section>
 
